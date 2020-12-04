@@ -4,10 +4,8 @@
 
 ### 1. Clonando o repositório:
 ```
-git hub:
-git clone git@github.com:flaviafreitas/test-cypress.git 
-git lab: 
-git@gitlab.com:flavismoreira/test-cypress.git
+git hub: git clone git@github.com:flaviafreitas/test-cypress.git 
+git lab: git@gitlab.com:flavismoreira/test-cypress.git
 cd test-cypress
 ```
 
@@ -40,6 +38,6 @@ Modo Headless:
 - total de testes: 7
 - tempo de execucao: 42,89s
 - evidencias de teste: 
-t_iterativo.png
-t_headless.png
+  t_iterativo.png
+  t_headless.png
 ```
