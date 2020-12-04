@@ -4,7 +4,7 @@
   "description": "Desafio de QA com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress go"
+    "test": "cypress run"
   },
   "keywords": [
     "cypress",
