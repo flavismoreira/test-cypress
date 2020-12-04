@@ -4,7 +4,10 @@
 
 ### 1. Clonando o repositório:
 ```
-git clone git@github.com:flaviafreitas/test-cypress.git
+git hub:
+git clone git@github.com:flaviafreitas/test-cypress.git 
+git lab: 
+git@gitlab.com:flavismoreira/test-cypress.git
 cd test-cypress
 ```
 
@@ -18,15 +21,25 @@ cd test-cypress
 ## TESTES
 ```
 Para rodar o teste:
+
+Modo Iterativo:
 - acessar a pasta test-cypress no terminal
 - executar o comando: npx cypress open
 - o cypress exibirá os testes implementados
 - clicar em Running integration tests
+
+Modo Headless:
+- acessar a pasta test-cypress no terminal
+- executar o comando: npm test
+- o resultado do teste será exibido no terminal
+
 ```
 
 ## RESULTADOS
 ```
 - total de testes: 7
 - tempo de execucao: 42,89s
-- evidencia de teste: test_passed.png
+- evidencias de teste: 
+test_iterativo.png
+test_headless.png
 ```
