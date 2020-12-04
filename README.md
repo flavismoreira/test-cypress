@@ -40,6 +40,6 @@ Modo Headless:
 - total de testes: 7
 - tempo de execucao: 42,89s
 - evidencias de teste: 
-test_iterativo.png
-test_headless.png
+t_iterativo.png
+t_headless.png
 ```
