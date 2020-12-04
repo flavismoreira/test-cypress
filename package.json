@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Desafio de QA com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress go"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "endtoend"
+  ],
+  "author": "Flavia Moreira",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^6.0.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.1"
+  }
+}
