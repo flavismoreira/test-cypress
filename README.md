@@ -18,18 +18,16 @@ cd test-cypress
 ## TESTES
 ```
 Para rodar o teste:
+- acessar a pasta test-cypress no terminal
 
 Modo Iterativo:
-- acessar a pasta test-cypress no terminal
 - executar o comando: npx cypress open
 - o cypress exibirá os testes implementados
 - clicar em Running integration tests
 
 Modo Headless:
-- acessar a pasta test-cypress no terminal
 - executar o comando: npm test
 - o resultado do teste será exibido no terminal
-
 ```
 
 ## RESULTADOS
