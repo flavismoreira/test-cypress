@@ -1,5 +1,5 @@
 describe("Navegacao", () => {
-  beforeEach(() => cy.visit("http://automationpractice.com/index.php"));
+  beforeEach(() => cy.visit(''));
 
   it("deve clicar na logo e ir para pagina inicial", () => {
     cy.get("#header_logo").click();
@@ -10,5 +10,4 @@ describe("Navegacao", () => {
     cy.get("#search_query_top").type("pants");
     cy.get(".btn.btn-default.button-search").click();
   });
-  
 });

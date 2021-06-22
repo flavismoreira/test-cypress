@@ -1,9 +1,9 @@
-describe("autenticacao", () => {
+describe("Autenticacao", () => {
 
   it("senha invalida", () => {
     const senhaInvalida = {				
-      Email: "flavia_mf@icloud.com",
-      Senha: "senhainvalida"
+      email: "flavia_mf@icloud.com",
+      senha: "senhainvalida"
     };
     cy.login(senhaInvalida);
     cy.alertaLoginInvalido(senhaInvalida);
@@ -11,8 +11,8 @@ describe("autenticacao", () => {
 
   it("email invalido", () => {
     const emailInvalido = {				
-      Email: "flavia_mficloud.com",
-      Senha: "141102"
+      email: "flavia_mficloud.com",
+      senha: "141102"
     };
     cy.login(emailInvalido);
     cy.alertaLoginInvalido(emailInvalido);
@@ -25,12 +25,13 @@ describe("autenticacao", () => {
 
   it("login valido", () => {
     const loginValido = {				
-      Email: "flavia_mf@icloud.com",
-      Senha: "141102"
+      email: "flavia_mf@icloud.com",
+      senha: "141102"
     };
     cy.login(loginValido);
     cy.alertaLoginValido(loginValido)
     cy.get(".logout").click();
+    //este teste deve falhar, pois nao consigui criar uma conta na plataforma
   });
 })
     
