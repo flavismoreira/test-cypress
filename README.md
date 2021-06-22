@@ -19,6 +19,7 @@ cd test-cypress
 ```
 Para rodar o teste:
 - acessar a pasta test-cypress no terminal
+- npm install
 
 Modo Iterativo:
 - executar o comando: npx cypress open
