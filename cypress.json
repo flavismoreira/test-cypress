@@ -1,1 +1,6 @@
-{}
+{
+  "baseUrl": "http://automationpractice.com/index.php",
+  "viewportWidth": 1300,
+  "viewportHeight": 635,
+  "defaultCommandTimeout": 50000
+}
